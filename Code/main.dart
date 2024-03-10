@@ -1,7 +1,7 @@
 import 'Media.dart';
 import 'Song.dart';
 
-main() {
+void main() {
   Media media = Media();
   Song song = Song(artist: "Justin Bieber");
   media.play();
